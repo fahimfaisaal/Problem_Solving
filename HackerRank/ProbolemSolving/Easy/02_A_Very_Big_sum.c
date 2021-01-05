@@ -21,8 +21,8 @@ int main() {
     scanf("%d", &n);
 
     long* ar = malloc(n * sizeof(long));
-    long big_sum = aVeryBigSum(n, ar);
+    long bigSum = aVeryBigSum(n, ar);
 
-    printf("%ld\n", big_sum);
+    printf("%ld\n", bigSum);
     return 0;
 }
