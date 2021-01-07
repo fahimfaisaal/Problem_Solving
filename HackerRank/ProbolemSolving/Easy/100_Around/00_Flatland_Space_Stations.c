@@ -19,15 +19,6 @@ int* bubbleSort(int n, int *arr) {
     return arr;
 }
 
-bool isFoundStation(int cites, int *spaceStations) {
-
-    for (int i = 0; i < sizeof(spaceStations) / 4; i++) {
-        if (cites == spaceStations[i]) return true;
-    }
-
-    return false;
-}
-
 int flatLandSpaceStation(int n, int m, int *spaceStations) {
     if (n == m) return 0;
 
@@ -36,25 +27,13 @@ int flatLandSpaceStation(int n, int m, int *spaceStations) {
 
     int *kilometers = malloc(n * 4);
 
-    int temp = 0;
-    int firstStation = spaceStations[0];
-
-    for (int i = firstStation; i < n; i++) {
-
-            if (isFoundStation(cites[i], spaceStations)) {
-                kilometers[i] = 0;
-                temp = 0;
-            } else if (isFoundStation(cites[i + 1], spaceStations)) {
-                kilometers[i] = cites[i + 1] - cites[i];
-                temp = 0; 
-            } else {
-                temp++;
-                kilometers[i] = temp; 
-            }
-    }
-
     for (int i = 0; i < m; i++) {
-        printf("\nstations -> %d ", spaceStations[i]);
+        int startStation = spaceStations[i],
+            endStation = spaceStations[i + 1];
+
+        for (int j = 0; j < spaceStations[i]; j++) {
+
+        }
     }
 
     int max = kilometers[0];
