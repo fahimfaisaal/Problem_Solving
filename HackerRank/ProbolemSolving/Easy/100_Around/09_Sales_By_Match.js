@@ -37,7 +37,7 @@ function sockMerchant(ar) {
 
     ar.length = 0
     for (let i in counterObj) ar.push(counterObj[i])
-    
+
     let match = 0;
     ar.forEach((number) => {
         if (number % 2 !== 0) match += (number - 1) / 2

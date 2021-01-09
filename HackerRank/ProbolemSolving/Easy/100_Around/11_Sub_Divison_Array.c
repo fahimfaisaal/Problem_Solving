@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//! NOT SOLVED
 int birthday(int n, int day, int month, int *chocolate) {
 
     int segment = 0;
 
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n;) {
         int sum = 0;
-        
-        for (int j = i; j < n; j++) {
+        int length = i + month;
 
-        }
+        for (int j = i; j < length; j++) sum += chocolate[j];
 
-        if (sum == day) {
-            segment++;
-        }
+        if (sum == day) segment++;
+        printf("sum = %d\n", sum);
+
+        i = length - 1;
+        if (length >= n) break;
     }
 
     return segment;
