@@ -28,8 +28,7 @@ int findDigits(int num) {
     return digitCounter;
 }
 
-int main()
-{
+int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
     char* t_endptr;
