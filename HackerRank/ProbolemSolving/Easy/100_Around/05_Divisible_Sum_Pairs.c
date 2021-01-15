@@ -34,7 +34,6 @@ int main() {
                         scanf("%d", &numbers[i]);
 
                         if (numbers[i] < 1 && numbers[i] > 100) {
-                            printf("\nYour number %d is out of range\n", numbers[i]);
                             i--;
                         }
                     }
@@ -45,14 +44,11 @@ int main() {
 
                     break;
                 }
-
-                printf("\nYour number %d is out of range\n", k);
             }
 
             break;
         }
         
-        printf("\nYour number %d is out of range\n", n);
     }
 
     return 0;

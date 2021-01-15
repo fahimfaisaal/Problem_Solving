@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//# Solved but have to optimize 🙄
+
 int get_ranked(int rank_count, int score, int *arr) {
     int player_rank;
 
