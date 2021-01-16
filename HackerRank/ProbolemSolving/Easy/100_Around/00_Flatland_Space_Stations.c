@@ -4,19 +4,8 @@
 
 //! NOT SOLVED
 
-int *bubbleSort(int n, int*arr) {
-    int swap;
-
-    for (int i = 0; i < n - 1; i++)       
-    for (int j = 0; j < n - i - 1; j++) {
-        if (arr[j] > arr[j + 1]) {
-            swap = arr[j];
-            arr[j] = arr[j + 1];
-            arr[j + 1] = swap;
-        }
-    }
-
-    return arr;
+int cmpfunc (const void * a, const void * b) {
+   return ( *(int*)a - *(int*)b );
 }
 
 int *getMedian(int start, int end) {
@@ -84,7 +73,7 @@ int main() {
 
             for (int i = 0; i < m; i++) scanf("%d", &spaceStations[i]);
 
-            bubbleSort(m, spaceStations);
+            qsort(spaceStations, m, sizeof(int), cmpfunc);
 
             int finalResult = flatLandSpaceStation(n, m, spaceStations);
 

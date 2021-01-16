@@ -23,7 +23,7 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
-
+//* Not 100% solved
 // Complete the repeatedString function below.
 function repeatedString(s, n) {
     let match = 0
