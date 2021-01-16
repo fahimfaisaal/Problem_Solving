@@ -10,18 +10,6 @@
 
 char* readline();
 
-// Complete the appendAndDelete function below.
-
-// Please either make the string static or allocate on the heap. For example,
-// static char str[] = "hello world";
-// return str;
-//
-// OR
-//
-// char* str = "hello world";
-// return str;
-//
-
 //! NOT SOLVED
 char* appendAndDelete(char* s, char* t, int k) {
 

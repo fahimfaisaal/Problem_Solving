@@ -24,7 +24,6 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the sockMerchant function below.
 function sockMerchant(ar) {
 
     let counterObj = ar.reduce((acc, number) => {

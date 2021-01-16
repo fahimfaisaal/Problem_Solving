@@ -22,7 +22,6 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the extraLongFactorials function below.
 function extraLongFactorials(num) {
     let longFactorial = BigInt(num);
     for (let i = BigInt(num) - 1n; i > 0; i--) longFactorial *= i;

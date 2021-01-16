@@ -11,7 +11,6 @@
 char* readline();
 char** split_string(char*);
 
-// Complete the jumpingOnClouds function below.
 int jumpingOnClouds(int c_count, int* c) {
     int jump = 0;
 

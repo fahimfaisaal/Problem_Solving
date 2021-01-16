@@ -11,17 +11,6 @@
 
 char* readline();
 
-// Complete the pangrams function below.
-
-// Please either make the string static or allocate on the heap. For example,
-// static char str[] = "hello world";
-// return str;
-//
-// OR
-//
-// char* str = "hello world";
-// return str;
-//
 char* pangrams(char* s) {
     
     char *letters = calloc(26, sizeof(char));

@@ -3,7 +3,7 @@
 
 //! NOT SOLVED
 int main(void) {
-    // your code goes here
+
     int n;
     scanf("%d", &n);
 

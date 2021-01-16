@@ -11,7 +11,7 @@
 char* readline();
 char** split_string(char*);
 
-// Complete the beautifulDays function below.
+
 int beautifulDays(int start, int end, int k) {
     int beautifulNumber = 0;
     

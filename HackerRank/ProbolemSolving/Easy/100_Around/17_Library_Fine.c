@@ -11,7 +11,6 @@
 char* readline();
 char** split_string(char*);
 
-// Complete the libraryFine function below.
 int libraryFine(int d1, int m1, int y1, int d2, int m2, int y2) {
    int fine = 0;
    

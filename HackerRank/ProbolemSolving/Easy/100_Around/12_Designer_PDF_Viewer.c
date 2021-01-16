@@ -11,7 +11,6 @@
 char* readline();
 char** split_string(char*);
 
-// Complete the designerPdfViewer function below.
 int designerPdfViewer(int h_count, int *heights, char *word) {
     char *letters = calloc(h_count, sizeof(char));
     for (int i = 0, j = 97; i < h_count; i++, j++) letters[i] = j;
