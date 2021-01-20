@@ -10,39 +10,54 @@
 
 char* readline();
 
-//! Time Limit exceeded
-
-char* twoStrings(char* s1, char* s2) {    
-    int strOneLen = strlen(s1);
-    int strTwoLen = strlen(s2);
+bool isChar(char letter) {
+    int c = letter;
     
-    for (int i = 0; i < strOneLen; i++) {
-        for (int j = i; j < strTwoLen; j++) {
-            if (s1[i] == s2[j]) return "YES";
-        }
+    for (int i = 0, j = 97; i < 26; i++, j++) {
+        if (c == j) return true;
     }
     
-    return "NO";
+    return false;
+}
+
+int makingAnagrams(char* s1, char* s2) {
+    int s1Len = strlen(s1);
+    int s2Len = strlen(s2);
+
+    int anagrams = 0;
+
+    for (int i = 0; i < s1Len; i++) {
+        for (int j = 0; j < s2Len; j++) {
+            if (s2[j] == ' ') continue;
+            
+            if (s1[i] == s2[j]) {
+                s1[i] = ' ';
+                s2[j] = ' ';
+                break;
+            }
+        }
+        
+        if (s1[i] != ' ') anagrams++;      
+    }
+
+    
+    for (int i = 0; i < s2Len; i++) {
+        if (s2[i] != ' ' && isChar(s2[i])) anagrams++;        
+    }
+
+    return anagrams;
 }
 
 int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
-    char* q_endptr;
-    char* q_str = readline();
-    int q = strtol(q_str, &q_endptr, 10);
+    char* s1 = readline();
 
-    if (q_endptr == q_str || *q_endptr != '\0') { exit(EXIT_FAILURE); }
+    char* s2 = readline();
 
-    for (int q_itr = 0; q_itr < q; q_itr++) {
-        char* s1 = readline();
+    int result = makingAnagrams(s1, s2);
 
-        char* s2 = readline();
-
-        char* result = twoStrings(s1, s2);
-
-        fprintf(fptr, "%s\n", result);
-    }
+    fprintf(fptr, "%d\n", result);
 
     fclose(fptr);
 

@@ -10,19 +10,30 @@
 
 char* readline();
 
-//! Time Limit exceeded
+int anagram(char* s) {
+    int len = strlen(s);
 
-char* twoStrings(char* s1, char* s2) {    
-    int strOneLen = strlen(s1);
-    int strTwoLen = strlen(s2);
+    if (len % 2 != 0) return -1;
+
+    int halfLen = len / 2,
+        angram = 0;
     
-    for (int i = 0; i < strOneLen; i++) {
-        for (int j = i; j < strTwoLen; j++) {
-            if (s1[i] == s2[j]) return "YES";
-        }
+    for (int i = 0; i < halfLen; i++) {
+       int j;
+       
+       for (j = halfLen; j < len; j++) {
+           if (s[j] == '0') continue;
+           
+           if (s[i] == s[j]) {
+                s[j] = '0';
+                break;
+           }
+       }
+       
+       if (j == len) angram++;
     }
     
-    return "NO";
+    return angram;
 }
 
 int main() {
@@ -35,13 +46,11 @@ int main() {
     if (q_endptr == q_str || *q_endptr != '\0') { exit(EXIT_FAILURE); }
 
     for (int q_itr = 0; q_itr < q; q_itr++) {
-        char* s1 = readline();
+        char* s = readline();
 
-        char* s2 = readline();
+        int result = anagram(s);
 
-        char* result = twoStrings(s1, s2);
-
-        fprintf(fptr, "%s\n", result);
+        fprintf(fptr, "%d\n", result);
     }
 
     fclose(fptr);
