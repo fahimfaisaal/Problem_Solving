@@ -28,20 +28,8 @@ const charCodes = {}
 for (let i = 0, j = 97; i < 26; i++, j++)
     charCodes[String.fromCharCode(j)] = i + 1
 
-const getTotal = string => {
-    let total = 0;
-    
-    for (let letter of string) total += charCodes[letter];
-
-    return total;
-}
-
-
-// Complete the weightedUniformStrings function below.
-//# Solved but 2 sample input are wrong 😒
 function weightedUniformStrings(s, queries) {
     const string = s.split('');
-    const total = getTotal(string);
 
     const codes =  string.reduce((obj, letter, index) => {
         let charCode = charCodes[letter],
@@ -63,13 +51,10 @@ function weightedUniformStrings(s, queries) {
 
     }, {})
 
-    
-    codes[total] = total
-
     const result = queries.reduce((arr, num) => {
-        const find = codes[num]
+        let isFind = codes[num]
 
-        if (!find) arr.push('No')
+        if (!isFind) arr.push('No')
         else arr.push('Yes')
 
         return arr

@@ -20,7 +20,6 @@ int *gradingStudents(int n, int *gradesArr) {
     }
 
     return gradesArr;
-
 }
 
 int main() {

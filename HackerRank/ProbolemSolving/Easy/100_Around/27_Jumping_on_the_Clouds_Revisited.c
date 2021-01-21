@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//! NOT SOLVED
 int jumpingOnClouds(int n, int k, int *clouds) {
     int energyOnJump = 100;
 
