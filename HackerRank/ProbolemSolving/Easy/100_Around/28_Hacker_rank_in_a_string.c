@@ -10,7 +10,6 @@
 
 char* readline();
 
-
 char* hackerrankInString(char* word) {
     char hackerrank[11] = "hackerrank";
 

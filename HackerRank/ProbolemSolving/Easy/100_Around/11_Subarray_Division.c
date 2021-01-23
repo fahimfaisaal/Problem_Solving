@@ -2,20 +2,17 @@
 #include <stdlib.h>
 
 int birthday(int n, int day, int month, int *chocolate) {
-
+    int *sum = calloc(1000, sizeof(int));
     int segment = 0;
 
-    for (int i = 0; i < n;) {
-        int sum = 0;
-        int length = i + month;
+    for (int i = 0; i < n; i++) {
+        sum[i + 1] = sum[i] + chocolate[i];
+    }
 
-        for (int j = i; j < length; j++) sum += chocolate[j];
-
-        if (sum == day) segment++;
-        printf("sum = %d\n", sum);
-
-        i = length - 1;
-        if (length >= n) break;
+    for (int i = 0; i <= n - month; i++) {
+        if (sum[i + month] - sum[i] == day) {
+            segment++;
+        }
     }
 
     return segment;
