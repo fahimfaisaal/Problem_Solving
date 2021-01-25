@@ -43,8 +43,7 @@ char* appendAndDelete(char* s, char* t, int k) {
     return NO;
 }
 
-int main()
-{
+int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
     char* s = readline();
