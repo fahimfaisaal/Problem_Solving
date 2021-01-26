@@ -11,7 +11,7 @@ int get_ranked(int rank_count, int score, int *arr) {
         else if (arr[i - 1] == arr[i]) player_rank = j;
         else player_rank = ++j;
 
-        if (arr[i] <= score) break;
+        if (arr[i] <= score) return player_rank;
         if (i == rank_count - 1) {
             if (arr[i - 1] == score) player_rank = j;
             else player_rank = ++j;

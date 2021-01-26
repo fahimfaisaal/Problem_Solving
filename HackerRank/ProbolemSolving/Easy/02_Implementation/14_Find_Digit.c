@@ -10,7 +10,6 @@
 
 char* readline();
 
-// Complete the findDigits function below.
 int findDigits(int num) {
     char numStr[10];
     sprintf(numStr, "%d", num);

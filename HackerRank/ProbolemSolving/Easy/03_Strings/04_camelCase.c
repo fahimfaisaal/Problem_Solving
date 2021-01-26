@@ -10,13 +10,13 @@
 
 char* readline();
 
-int getCharCode(char letter) {
+bool getCharCode(char letter) {
 
     for (int i = 1, j = 65; i < 27; i++, j++) {
-        if (letter == j) return 1;
+        if (letter == j) return true;
     }
 
-    return 0;
+    return false;
 }
 
 
@@ -31,8 +31,7 @@ int camelcase(char* s) {
     return wordCounter;
 }
 
-int main()
-{
+int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
     char* s = readline();
