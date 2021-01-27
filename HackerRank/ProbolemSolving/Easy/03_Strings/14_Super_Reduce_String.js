@@ -38,7 +38,7 @@ function superReducedString(s) {
         s = s.join('')
         
         if (isMatch === s.length - 1) return s
-        if (s.length === 0) return "Empty String"
+        if (!s.length) return "Empty String"
     }
 }
 

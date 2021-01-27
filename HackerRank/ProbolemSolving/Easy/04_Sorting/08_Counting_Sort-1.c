@@ -11,21 +11,13 @@
 char* readline();
 char** split_string(char*);
 
-int jumpingOnClouds(int c_count, int* c) {
-    int jump = 0;
-
-    for (int i = 0; i < c_count - 1; i++) {
-        if (c[i] == 1) continue;
-        else if (c[i + 1] == 1) {
-            i += 1;
-            jump++;
-        } else if (c[i + 1] == 0 && c[i + 2] == 0) {
-            i += 1;
-            jump++;
-        } else if (c[i] == 0 && c[i + 1] == 0) jump++;
-    }
+int* countingSort(int arr_count, int* arr, int* result_count) {
+    *result_count = 100;
+    int *result = calloc(100, sizeof(int));
     
-    return jump;
+    for (int i = 0; i < arr_count; i++) result[arr[i]]++;
+    
+    return result;
 }
 
 int main() {
@@ -37,25 +29,34 @@ int main() {
 
     if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
 
-    char** c_temp = split_string(readline());
+    char** arr_temp = split_string(readline());
 
-    int* c = malloc(n * sizeof(int));
+    int* arr = malloc(n * sizeof(int));
 
     for (int i = 0; i < n; i++) {
-        char* c_item_endptr;
-        char* c_item_str = *(c_temp + i);
-        int c_item = strtol(c_item_str, &c_item_endptr, 10);
+        char* arr_item_endptr;
+        char* arr_item_str = *(arr_temp + i);
+        int arr_item = strtol(arr_item_str, &arr_item_endptr, 10);
 
-        if (c_item_endptr == c_item_str || *c_item_endptr != '\0') { exit(EXIT_FAILURE); }
+        if (arr_item_endptr == arr_item_str || *arr_item_endptr != '\0') { exit(EXIT_FAILURE); }
 
-        *(c + i) = c_item;
+        *(arr + i) = arr_item;
     }
 
-    int c_count = n;
+    int arr_count = n;
 
-    int result = jumpingOnClouds(c_count, c);
+    int result_count;
+    int* result = countingSort(arr_count, arr, &result_count);
 
-    fprintf(fptr, "%d\n", result);
+    for (int i = 0; i < result_count; i++) {
+        fprintf(fptr, "%d", *(result + i));
+
+        if (i != result_count - 1) {
+            fprintf(fptr, " ");
+        }
+    }
+
+    fprintf(fptr, "\n");
 
     fclose(fptr);
 

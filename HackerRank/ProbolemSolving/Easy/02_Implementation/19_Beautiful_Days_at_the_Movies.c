@@ -25,7 +25,7 @@ int beautifulDays(int start, int end, int k) {
         
         int number = atoi(revNum);
         
-        (i - number) % k == 0 && beautifulNumber++;
+        !((i - number) % k) && beautifulNumber++;
     }
     
     return beautifulNumber;

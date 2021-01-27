@@ -25,12 +25,13 @@ function readLine() {
 }
 
 function twoStrings(s1, s2) {
-    let s1Obj = {};
-    for (let i in s1) s1Obj[s1[i]] = s1[i]
+    const s1Obj = s1.split('').reduce((obj, letter) => {
+        obj[letter] = letter
+        return obj;
+    }, {});
 
-    for (let i = 0; i < s2.length; i++) {
+    for (let i in s2)
         if (s2[i] in s1Obj) return "YES"
-    }
 
     return "NO"
 }
