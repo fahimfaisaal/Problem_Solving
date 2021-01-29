@@ -4,7 +4,6 @@
 #include <ctype.h>
 
 bool is_vowel(char character) {
-
     char vowels[6] = {'A', 'E', 'I', 'O', 'U', 'Y'};
 
     for (int i = 0; i < 6; i++) {
