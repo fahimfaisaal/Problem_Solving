@@ -15,7 +15,6 @@ bool is_vowel(char character) {
 }
 
 int main() {
-
     char word[100];
 
     scanf("%[^\n]%*c", word);

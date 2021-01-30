@@ -10,7 +10,6 @@ bool is_increment(char *string) {
 }
 
 int main() {
-
     int x = 0, n;
     char X[4];
 

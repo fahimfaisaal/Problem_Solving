@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     int count,
         condition_count = 0,
         number_of_implimentation = 0;

@@ -16,7 +16,6 @@ bool isDistinct(int y) {
 }
 
 int main() {
-
     int y;
     scanf("%d", &y);
 

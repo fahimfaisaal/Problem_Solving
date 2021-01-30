@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     long int n, m, a;
 
     scanf("%li%li%li", &n, &m, &a);

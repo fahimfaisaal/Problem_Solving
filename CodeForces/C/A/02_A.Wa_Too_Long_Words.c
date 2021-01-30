@@ -2,7 +2,6 @@
 #include <string.h>
 
 int main() {
-
     int count = 1;
     char word[100];
 
