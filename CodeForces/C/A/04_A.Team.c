@@ -11,9 +11,8 @@ int main() {
         int inputs_container[count][3];
 
         for (int i = 0; i < count; i++)
-            for (int j = 0; j < 3; j++) {
+            for (int j = 0; j < 3; j++)
                 scanf("%d", &inputs_container[i][j]);
-            }
 
         for (int i = 0; i < count; i++) {
             for (int j = 0; j < 3; j++) inputs_container[i][j] == 1 && condition_count++;

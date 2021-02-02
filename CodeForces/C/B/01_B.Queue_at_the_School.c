@@ -5,7 +5,8 @@ int main() {
     scanf("%d %d", &n, &t);
 
     char string[n + 1];
-    for (int i = 0; i <= n; i++) scanf("%c", &string[i]);
+    for (int i = 0; i <= n; i++) 
+        scanf("%c", &string[i]);
 
     while (t--) {
         for (int i = 1; i <= n; i++) {
@@ -18,7 +19,8 @@ int main() {
         }
     }
 
-    for (int i = 0; i <= n; i++) printf("%c", string[i]);
+    for (int i = 0; i <= n; i++)
+        printf("%c", string[i]);
 
     return 0;
 }

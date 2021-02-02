@@ -9,22 +9,46 @@
 #include <string.h>
 
 char* readline();
-long repeatedString(char* s, long n);
+
+int reduceLetter(char fromLetter, char toLetter) {
+    return (int)fromLetter - (int)toLetter;
+}
+
+int theLoveLetterMystery(char* s) {
+    int reduceCounter = 0,
+        len = strlen(s),
+        length = len / 2,
+        fromStart = 0,
+        fromEnd = len - 1;
+
+    while (length--) {
+        if (s[fromStart != s[fromEnd]]) {
+            int reduce = reduceLetter(s[fromEnd], s[fromStart]);
+            reduceCounter += (reduce < 0 ? reduce *= -1 : reduce);
+        }
+        
+        fromStart++, fromEnd--;
+    }
+
+    return reduceCounter;
+}
 
 int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
-    char* s = readline();
+    char* q_endptr;
+    char* q_str = readline();
+    int q = strtol(q_str, &q_endptr, 10);
 
-    char* n_endptr;
-    char* n_str = readline();
-    long n = strtol(n_str, &n_endptr, 10);
+    if (q_endptr == q_str || *q_endptr != '\0') { exit(EXIT_FAILURE); }
 
-    if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
+    for (int q_itr = 0; q_itr < q; q_itr++) {
+        char* s = readline();
 
-    long result = repeatedString(s, n);
+        int result = theLoveLetterMystery(s);
 
-    fprintf(fptr, "%ld\n", result);
+        fprintf(fptr, "%d\n", result);
+    }
 
     fclose(fptr);
 
@@ -61,26 +85,4 @@ char* readline() {
     data = realloc(data, data_length);
 
     return data;
-}
-
-long repeatedString(char* s, long n) {
-    long size = strlen(s),
-        repeat = n / size;
-        
-    long remian = n - (size * repeat);
-
-    int extra = 0;
-    int count = 0;
-
-    for(int i = 0; i < size; i++) { 
-        if(s[i] == 'a') count++;        
-    }
-
-    for(int i = 0; i < remian; i++) {
-        if(s[i] == 'a') extra++;        
-    }
-
-    repeat = (repeat * count) + extra;
-
-    return repeat;
 }

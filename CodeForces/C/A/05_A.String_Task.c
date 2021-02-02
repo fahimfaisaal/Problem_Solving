@@ -6,10 +6,9 @@
 bool is_vowel(char character) {
     char vowels[6] = {'A', 'E', 'I', 'O', 'U', 'Y'};
 
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 6; i++) 
        if (toupper(character) == vowels[i])
            return true;
-    }
 
     return false;
 }

@@ -3,8 +3,8 @@
 #include <string.h>
 
 bool is_increment(char *string) {
-
-    if (!strcmp(string, "X++") || !strcmp(string, "++X")) return true;
+    if (!strcmp(string, "X++") || !strcmp(string, "++X"))
+     return true;
 
     return false;
 }

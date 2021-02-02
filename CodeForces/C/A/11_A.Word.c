@@ -27,9 +27,8 @@ int main() {
 bool isLower(char letter) {
     int charCode = letter;
 
-    for (int i = 1, j = 97; i < 27; i++, j++) {
+    for (int i = 1, j = 97; i < 27; i++, j++) 
         if (j == charCode) return true;
-    }
 
     return false;
 }
@@ -37,25 +36,22 @@ bool isLower(char letter) {
 int lowerCount(int len, char* str) {
     int counter = 0;
 
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++) 
         if (isLower(str[i])) counter++;
-    }
 
     return counter;
 }
 
 char *lower(int len , char* str) {
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++)
       str[i] = tolower(str[i]);
-    }
 
     return str;
 }
 
 char *upper(int len , char* str) {
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++) 
       str[i] = toupper(str[i]);
-    }
 
     return str;
 }
