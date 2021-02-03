@@ -11,8 +11,7 @@
 
 char* readline();
 
-char* pangrams(char* s) {
-    
+char* pangrams(char* s) {    
     char *letters = calloc(26, sizeof(char));
     for (int i = 0, j = 97; i < 26; i++, j++) letters[i] = j;
     
@@ -26,7 +25,8 @@ char* pangrams(char* s) {
     
     int countMatch = 0;
     
-    for (int i = 0; i < 26; i++) for (int j = 0; j < length; j++) {
+    for (int i = 0; i < 26; i++)
+     for (int j = 0; j < length; j++) {
         if (letters[i] == alphabetCode[j]) {
             countMatch++;
             alphabetCode[j] = 0;
@@ -38,8 +38,7 @@ char* pangrams(char* s) {
     else return "not pangram";
 }
 
-int main()
-{
+int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
     char* s = readline();

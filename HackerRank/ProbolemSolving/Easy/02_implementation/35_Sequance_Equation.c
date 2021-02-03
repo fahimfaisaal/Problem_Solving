@@ -15,7 +15,8 @@ int* permutationEquation(int p_count, int* p, int* result_count) {
     int *result = calloc(p_count, sizeof(int));
         *result_count = p_count;
     
-    for (int i = 1, j = 0; i <= p_count; i++, j++) result[j] = p[p[i]];    
+    for (int i = 1, j = 0; i <= p_count; i++, j++)
+     result[j] = p[p[i]];    
     
     return result;
 }
