@@ -15,9 +15,8 @@ char** split_string(char*);
 char* angryProfessor(int k, int a_count, int* a) {    
     int onTime = 0;
     
-    for (int i = 0; i < a_count; i++) {
+    for (int i = 0; i < a_count; i++)
         if (a[i] <= 0) onTime++;
-    }
     
     if (k <= onTime) return "NO";
     return "YES";

@@ -26,7 +26,7 @@ function extraLongFactorials(num) {
     let longFactorial = BigInt(num);
     for (let i = BigInt(num) - 1n; i > 0; i--) longFactorial *= i;
 
-    console.log(longFactorial + '')
+    console.log(`${longFactorial}`)
 }
 
 function main() {
