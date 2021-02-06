@@ -18,9 +18,8 @@ int campfunc(const void *a, const void *b) {
 int getMin(int len, int *arr) {
     int min = arr[0];
     
-    for (int i = 1; i < len; i++) {
+    for (int i = 1; i < len; i++)
         if (min > arr[i]) min = arr[i];
-    }
     
     return min;
 }

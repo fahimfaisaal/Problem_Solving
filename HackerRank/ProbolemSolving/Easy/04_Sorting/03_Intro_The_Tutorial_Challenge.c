@@ -12,7 +12,6 @@ char* readline();
 char** split_string(char*);
 
 int introTutorial(int V, int arr_count, int* arr) {
-
     for (int i = 0; i < arr_count; i++) {
         if (arr[i] == V) return i;
     }
