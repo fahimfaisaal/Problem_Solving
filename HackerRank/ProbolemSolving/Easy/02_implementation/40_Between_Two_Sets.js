@@ -42,7 +42,6 @@ function getNextFactor(num, from) {
     return 0;
 }
 
-
 function getTotalX(a, b) {
     let minInB = b[0];
     for (let i = 1; i < b.length; i++)
