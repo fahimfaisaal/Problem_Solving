@@ -47,11 +47,7 @@
     <summary>
         <b>Implementaion</b>
     </summary>
-        <details>
-            <summary>
-                <b>Easy</b>
-            </summary>
-            <br>
+            <h2 align="center">Easy</h2>
             <ol>
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/01_Number_Lines_Jump.c">Number lines jump<a>
@@ -84,75 +80,30 @@
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/Subarray_Division.c">Subarray divison<a>
                 </li>
             </ol>
-        </details>
-        <details>
-            <summary>
-                <b>Medium</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Hard</b>
-            </summary>
-        </details>
+            <h2 align="center">Medium</h2>            
+            <h2 align="center">Hard</h2>
 </details>
 <details>
     <summary>
         <b>Strings</b>
     </summary>
-        <details>
-            <summary>
-                <b>Easy</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Medium</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Hard</b>
-            </summary>
-        </details>
+    <h2 align="center">Easy</h2>            
+    <h2 align="center">Medium</h2>
+    <h2 align="center">Hard</h2>
 </details>
 <details>
     <summary>
         <b>Sorting</b>
     </summary>
-        <details>
-            <summary>
-                <b>Easy</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Medium</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Hard</b>
-            </summary>
-        </details>
+    <h2 align="center">Easy</h2>            
+    <h2 align="center">Medium</h2>
+    <h2 align="center">Hard</h2>
 </details>
 <details>
     <summary>
         <b>Search</b>
     </summary>
-        <details>
-            <summary>
-                <b>Easy</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Medium</b>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <b>Hard</b>
-            </summary>
-        </details>
+    <h2 align="center">Easy</h2>            
+    <h2 align="center">Medium</h2>
+    <h2 align="center">Hard</h2>
 </details>
