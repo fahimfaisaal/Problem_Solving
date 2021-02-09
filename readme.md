@@ -1,4 +1,4 @@
-<h1 align="center"><i>HackerRank</i> & CodeForces</h1>
+<h1 align="center">HackerRank & CodeForces</h1>
 
 ## HackerRank
 
@@ -77,7 +77,40 @@
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/09_Drawing_Books.c">Drawing books<a>
                 </li>
                 <li>
-                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/Subarray_Division.c">Subarray divison<a>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/10_Subarray_Division.c">Subarray divison<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/11_Designer_PDF_Viewer.c">Designer PDF viewer<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/11_Designer_PDF_Viewer.js">Designer PDF viewer (javaScript)<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/12_Utopain_tree.c">Utopain tree<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/13_Electronics_Shop.c">Electronic shop<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/14_Find_Digit.c">Find Digit<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/15_Library_Fine.c">Library Fine<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/16_Day_Of_The_Programmer.c">Day of the programmer<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/17_Jumping_on_the_Clouds.c">Jumping on the clouds<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/18_The_Hurdle_Race.c">The hurdle race<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/19_Beautiful_Days_at_the_Movies.c">Beautiful days at the movies<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/20_Cats_and_a_Mouse.c">Cats and a Mouse<a>
                 </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>            
