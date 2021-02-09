@@ -1,4 +1,4 @@
-<h1 align="center">HackerRank & CodeForces</h1>
+<h1 align="center"><i>HackerRank</i> & CodeForces</h1>
 
 ## HackerRank
 
@@ -38,7 +38,7 @@
                 <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/08_Birthday_Cake_Candels.c">Birthday cake candels</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/09_Time_Conversion.js">Time conversion</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/09_Time_Conversion.js">Time conversion (javaScript)</a>
             </li>
         </ol>
     </div>
@@ -47,7 +47,7 @@
     <summary>
         <b>Implementaion</b>
     </summary>
-            <h2 align="center">Easy</h2>
+            <h2 align="center"><i>Easy</i></h2>
             <ol>
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/01_Number_Lines_Jump.c">Number lines jump<a>
@@ -80,30 +80,30 @@
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/Subarray_Division.c">Subarray divison<a>
                 </li>
             </ol>
-            <h2 align="center">Medium</h2>            
-            <h2 align="center">Hard</h2>
+            <h2 align="center"><i>Medium</i></h2>            
+            <h2 align="center"><i>Hard</i></h2>
 </details>
 <details>
     <summary>
         <b>Strings</b>
     </summary>
-    <h2 align="center">Easy</h2>            
-    <h2 align="center">Medium</h2>
-    <h2 align="center">Hard</h2>
+    <h2 align="center"><i>Easy</i></h2>            
+    <h2 align="center"><i>Medium</i></h2>
+    <h2 align="center"><i>Hard</i></h2>
 </details>
 <details>
     <summary>
         <b>Sorting</b>
     </summary>
-    <h2 align="center">Easy</h2>            
-    <h2 align="center">Medium</h2>
-    <h2 align="center">Hard</h2>
+    <h2 align="center"><i>Easy</i></h2>            
+    <h2 align="center"><i>Medium</i></h2>
+    <h2 align="center"><i>Hard</i></h2>
 </details>
 <details>
     <summary>
         <b>Search</b>
     </summary>
-    <h2 align="center">Easy</h2>            
-    <h2 align="center">Medium</h2>
-    <h2 align="center">Hard</h2>
+    <h2 align="center"><i>Easy</i></h2>            
+    <h2 align="center"><i>Medium</i></h2>
+    <h2 align="center"><i>Hard</i></h2>
 </details>
