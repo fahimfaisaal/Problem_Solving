@@ -12,7 +12,6 @@ int birthdayCakeCandles(int n, int *candels, int highestCandle) {
 }
 
 int main() {
-
     int n;
     scanf("%d", &n);
 

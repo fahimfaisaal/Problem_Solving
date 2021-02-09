@@ -15,7 +15,6 @@ int* compareTriplets(int *alice, int *bob) {
 }
 
 int main() {
-
     int *alice = malloc(3 * 4);
     int *bob = malloc(3 * 4);
 

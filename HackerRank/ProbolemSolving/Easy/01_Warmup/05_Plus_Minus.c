@@ -17,7 +17,6 @@ void plusMinus(int n, int *arr) {
 }
 
 int main() {
-
     int n;
     scanf("%d", &n);
 

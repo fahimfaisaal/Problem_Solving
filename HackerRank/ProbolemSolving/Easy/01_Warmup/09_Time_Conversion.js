@@ -27,13 +27,13 @@ function timeConversion(time12) {
         hour = time12[0] + time12[1],
         minutes = time12[3] + time12[4],
         seconds = time12[6] + time12[7],
-        changeHour, time24
+        changeHour
 
     changeHour = am && (+hour === 12) ? "00"
         : (+hour < 12) && !am ? String(+hour + 12)
         : hour
 
-    return time24 = `${changeHour}:${minutes}:${seconds}`
+    return `${changeHour}:${minutes}:${seconds}`
 }
 
 function main() {

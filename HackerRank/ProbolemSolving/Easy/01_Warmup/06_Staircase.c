@@ -23,7 +23,6 @@ void staircase(int n) {
 }
 
 int main() {
-
     int n;
     
     while (1) {

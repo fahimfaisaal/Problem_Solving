@@ -23,7 +23,6 @@ int diagonalDifference(int n, int **arr) {
 }
 
 int main() {
-
     while (1) {
 
         int n;

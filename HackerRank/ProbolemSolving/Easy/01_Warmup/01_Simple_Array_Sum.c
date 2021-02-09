@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int simpleArraySum(int ar_count, int* ar) {
-
     int sum = 0;
 
     for (int i = 0; i < ar_count; i++) {
@@ -18,7 +17,6 @@ int simpleArraySum(int ar_count, int* ar) {
 }
 
 int main() {
-
     int n;
 
     scanf("%d", &n);
@@ -30,5 +28,6 @@ int main() {
 
         printf("%d\n", final_result);
     }
+    
     return 0;
 }
