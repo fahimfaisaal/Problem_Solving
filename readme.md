@@ -1,4 +1,4 @@
-<h1 align="center">HackerRank & CodeForces</h1>
+<h1 align="center">HackerRank - CodeForces - URI</h1>
 
 ## HackerRank
 

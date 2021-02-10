@@ -9,17 +9,17 @@ char* gameOfThrones(char* s) {
         letter;
     
     for (int i = 0; i < len - 1; i++) {
-        if (s[i] == ' ') continue;
+        if (s[i] == '0') continue;
         letter = 1;
         
         for (int j = i + 1; j < len; j++) {
             if (s[i] == s[j]) {
                 letter++;
-                s[j] = ' ';
+                s[j] = '0';
             }
         }
 
-        s[i] = ' ';
+        s[i] = '0';
         
         if (letter % 2) odd++;
         else even++;
