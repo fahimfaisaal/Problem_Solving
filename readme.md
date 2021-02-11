@@ -6,7 +6,7 @@
 <details>
     <summary>
         <b>Warmup</b>
-    </summary>
+    </summary> 
     <br>
     <div>
         <ol>
@@ -110,7 +110,36 @@
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/19_Beautiful_Days_at_the_Movies.c">Beautiful days at the movies<a>
                 </li>
                 <li>
-                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/20_Cats_and_a_Mouse.c">Cats and a Mouse<a>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/20_Cats_and_a_Mouse.c">Cats and a mouse<a>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/21_Halloween_Sale.c">Halloween sale<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/22_Minimum_Distances.c">Minimum distances<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/23_Modified_Kaprekar_Numbers.c">Modified kaprekar numbers<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/24_Sherlock_and_Squares.c">Sherlock and squares<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/25_Angry_Professor.c">Angry Professor<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/26_Beautiful_Triplets.c">Beautiful triplets<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/27_Counting_Vallyes.c">Counting vallyes<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/28_Cut_The_Sticks.c">Cut the sticks<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/29_Repeated_String.c">Repeated string<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/30_Apple_and_Orange.c">Apple and orange<a>
                 </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>            
