@@ -141,6 +141,42 @@
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/30_Apple_and_Orange.c">Apple and orange<a>
                 </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/31_Viral_Advertising.c">Viral advertising<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/32_Circular_Array_Rotation.c">Circular array rotation<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/33_Save_the_Prisoner.c">Save the prisoner<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/34_Fair_Rations.c">Fair rations<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/35_Sequence_Equation.c">Sequence equation<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/36_Happy_LadyBugs.js">Happy ladybugs (javaScript)<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/37_Service_Lane.c">Service lane<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/38_ACM_ICPC_Team.js">ACM ICPC Team (javaScript)<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/39_Lisa's_Workbook.c">Lisa's workbook<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/40_Between_Two_Sets.js">Between two sets<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/41_Picking_Numbers.c">Picking numbers<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/42_Chocolate_Feast.c">Chocolate feast<a>
+                </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>            
             <h2 align="center"><i>Hard</i></h2>
