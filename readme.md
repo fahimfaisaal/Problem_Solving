@@ -1,6 +1,6 @@
 <h1 align="center">HackerRank - CodeForces - URI</h1>
 
-<h2>HackerRank<img src="./img/HackerRank_Icon-1000px.png" height = "20px" width = "20px"></h2>
+<h2>HackerRank <img align= "left" src="./img/HackerRank_Icon-1000px.png" height = "25px" width = "25px"></h2>
 
 ### Problem Solving
 <details>
