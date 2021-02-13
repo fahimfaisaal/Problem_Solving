@@ -3,6 +3,7 @@
 <h2>HackerRank <img align= "left" src="./img/HackerRank_Icon-1000px.png" height = "25px" width = "25px"></h2>
 
 ### Problem Solving
+<!-- * Warmup -->
 <details>
     <summary>
         <b>Warmup</b>
@@ -43,6 +44,7 @@
         </ol>
     </div>
 </details>
+<!-- * Implementaion -->
 <details>
     <summary>
         <b>Implementaion</b>
@@ -177,15 +179,81 @@
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/42_Chocolate_Feast.c">Chocolate feast<a>
                 </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/43_Taum_and_B'day.js">Taum and B'day<a>
+                </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>            
             <h2 align="center"><i>Hard</i></h2>
 </details>
+<!-- * Strings -->
 <details>
     <summary>
         <b>Strings</b>
     </summary>
-    <h2 align="center"><i>Easy</i></h2>            
+    <h2 align="center"><i>Easy</i></h2>
+    <ol>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/01_Caesar_Cipher.c">Caesar cipher</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/02_Pangrams.c">Pangrams</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/03_Hacker_rank_in_a_string.c">Hackerrank in a string</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/04_camelCase.c">camelCase</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/05_Strong_Password.c">Strong password</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/06_Funny_String.c">Funny string</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/07_Gemstones.c">Gemstones</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/08_Alternating_Characters.c">Alternating characters</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/09_Two_Strings.js">Two string (javaScript)</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/10_Anagram.c">Anagram</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/11_Making_Anagrams.c">Making anagrams</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/12_Mars_Exploration.c">Mars exploration</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/13_String_Constructor.js">String constructor (javaScript)</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/14_Super_Reduce_String.js">Super reduce string (javaScript)</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/15_Weighted_Uniform_String.js">Weighted uniform strings (javaScript)</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/16_The_Love-Letter_Mystery.c">The love letter mystery</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/17_Palindrome_Index.js">Palindrome index (javaScript)</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/18_Beautiful_Binary_String.c">Beautiful binary string</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/19_Two_Charecters.c">Two characters</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/20_Game_of_Thrones-I.c">Game of Thrones I</a>
+        </li>
+    </ol>            
     <h2 align="center"><i>Medium</i></h2>
     <h2 align="center"><i>Hard</i></h2>
 </details>
