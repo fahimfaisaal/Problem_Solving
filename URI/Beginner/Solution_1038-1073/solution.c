@@ -21,7 +21,7 @@ void main() {
     //     printf("%s %.2f\n", str, 4.50 * quantity);
     // } else if (product_code == 3) {
     //     printf("%s %.2f\n", str, 5.00 * quantity);
-    // }else if (product_code == 4) {
+    // } else if (product_code == 4) {
     //     printf("%s %.2f\n", str, 2.00 * quantity);
     // } else if (product_code == 5) {
     //     printf("%s %.2f\n", str, 1.50 * quantity);
