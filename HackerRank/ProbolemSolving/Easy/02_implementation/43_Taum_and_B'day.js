@@ -23,20 +23,15 @@ function readLine() {
 }
 
 function taumBday(b, w, bc, wc, z) {
-    let cost = (b * bc) + (w * wc),
-        conversionCost = Infinity;
+    const cost = (b * bc) + (w * wc);
 
-    if (bc < wc) {
-        wc = bc + z;
-        conversionCost = (b * bc) + (w * wc);
-    } else if (bc > wc) {
-        bc = wc + z;
-        conversionCost = (b * bc) + (w * wc);
-    }
+    if (bc < wc) wc = bc + z;
+    else if (bc > wc) bc = wc + z;
 
-    if (cost < conversionCost) return `${cost}`;
+    const conversionCost = (b * bc) + (w * wc)
+    if (cost > conversionCost) return `${conversionCost}`
 
-    return `${conversionCost}`;
+    return `${cost}`;
 }
 
 function main() {
