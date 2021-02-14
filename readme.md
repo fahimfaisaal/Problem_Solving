@@ -255,6 +255,14 @@
         </li>
     </ol>            
     <h2 align="center"><i>Medium</i></h2>
+        <ol>
+            <li>
+                <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/02_Extra_Long_Factorials.js">Extra long factorial (javaScript)</a>
+            </li>
+            <li>
+                <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/03_The_Grid_Search.js">The grid search (javaScript)</a>
+            </li>
+        </ol>
     <h2 align="center"><i>Hard</i></h2>
 </details>
 <details>
