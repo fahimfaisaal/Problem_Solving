@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main() { //! (NOT Solved)
     int n, fingers,
         friendsFingers = 0;
     

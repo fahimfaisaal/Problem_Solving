@@ -191,6 +191,9 @@
                     <li>
                         <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/03_The_Grid_Search.js">The grid search (javaScript)</a>
                     </li>
+                    <li>
+                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/04_The_Time_in_Words.js">The time in words(javaScript)</a>
+                    </li>
                 </ol>            
             <h2 align="center"><i>Hard</i></h2>
 </details>
