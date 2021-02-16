@@ -44,10 +44,10 @@
         </ol>
     </div>
 </details>
-<!-- * Implementaion -->
+<!-- * Implementation -->
 <details>
     <summary>
-        <b>Implementaion</b>
+        <b>Implementation</b>
     </summary>
             <h2 align="center"><i>Easy</i></h2>
             <ol>
@@ -182,6 +182,9 @@
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/43_Taum_and_B'day.js">Taum and B'day<a>
                 </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/44_Cavity_Map.c">Cavity map<a>
+                </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>
                 <ol>
@@ -189,10 +192,16 @@
                         <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/02_Extra_Long_Factorials.js">Extra long factorial (javaScript)</a>
                     </li>
                     <li>
-                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/03_The_Grid_Search.js">The grid search (javaScript)</a>
+                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/03_The_Grid_Search.js">The grid search  (javaScript)</a>
                     </li>
                     <li>
-                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/04_The_Time_in_Words.js">The time in words(javaScript)</a>
+                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/04_The_Time_in_Words.js">The time in words (javaScript)</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/05_Sherlock_and_the_Valid_String.js">Sherlock and the valid string (javaScript)</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/06_Encryption.js">Encryption (javaScript)</a>
                     </li>
                 </ol>            
             <h2 align="center"><i>Hard</i></h2>
