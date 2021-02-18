@@ -336,5 +336,5 @@
 
 <h2>CodeForces <img align= "left" src="./img/codeforces.png" height = "25px" width = "25px"></h2>
 
-1. (A)[https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/A]
-2. (B)[https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/B]
+1. [A](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/A)
+2. [B](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/B)
