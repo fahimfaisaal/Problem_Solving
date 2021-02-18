@@ -203,6 +203,9 @@
                     <li>
                         <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/06_Encryption.js">Encryption (javaScript)</a>
                     </li>
+                    <li>
+                        <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/07_The_Full_Counting_Sort.js">The full counting sort (javaScript)</a>
+                    </li>
                 </ol>            
             <h2 align="center"><i>Hard</i></h2>
 </details>
@@ -281,7 +284,36 @@
     <summary>
         <b>Sorting</b>
     </summary>
-    <h2 align="center"><i>Easy</i></h2>            
+    <h2 align="center"><i>Easy</i></h2> 
+    <ol>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/01_Closest_Number.c">Closest number</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/02_Find_the_Median.c">Find the median</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/03_Intro_The_Tutorial_Challenge.c">Intro the tutorial challenge</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/04_Insertion_Sort_Part-1.c">Insertion sort part-1</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/05_Insertion_Sort_Part-2.c">Insertion sort part-2</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/06_Correctness_and_the_Loop_invariant.c">Correctness and the loop invariant</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/07_Running_time_of_Algorithms.c">Running time of algorithms</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/08_Counting_Sort-1.c">Counting sort 1</a>
+        </li>
+        <li>
+            <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/09_Counting_Sort-2.c">Counting sort 2</a>
+        </li>
+    </ol>           
     <h2 align="center"><i>Medium</i></h2>
     <h2 align="center"><i>Hard</i></h2>
 </details>
@@ -289,7 +321,20 @@
     <summary>
         <b>Search</b>
     </summary>
-    <h2 align="center"><i>Easy</i></h2>            
+    <h2 align="center"><i>Easy</i></h2> 
+        <ol>
+            <li>
+                <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/05_Search/01_Missing_Numbers.c">Missing numbers</a>
+            </li>
+            <li>
+                <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/05_Search/02_Ice_Cream_parlor.c">Ice cream parlor</a>
+            </li>
+        </ol>
     <h2 align="center"><i>Medium</i></h2>
     <h2 align="center"><i>Hard</i></h2>
 </details>
+
+<h2>CodeForces <img align= "left" src="./img/codeforces.png" height = "25px" width = "25px"></h2>
+
+1. (A)[https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/A]
+2. (B)[https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/B]
