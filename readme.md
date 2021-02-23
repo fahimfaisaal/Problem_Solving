@@ -185,6 +185,12 @@
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/44_Cavity_Map.c">Cavity map<a>
                 </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/45_Jumping_on_the_clouds:Revisited.c">Jumping on the clouds:Revisited<a>
+                </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/46_Manasa_and_Stones.js">Manasa and stones (javaScript)<a>
+                </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>
                 <ol>
@@ -207,7 +213,7 @@
                         <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Medium/07_The_Full_Counting_Sort.js">The full counting sort (javaScript)</a>
                     </li>
                 </ol>            
-            <h2 align="center"><i>Hard</i></h2>
+            <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 <!-- * Strings -->
 <details>
@@ -277,8 +283,8 @@
             <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/03_Strings/20_Game_of_Thrones-I.c">Game of Thrones I</a>
         </li>
     </ol>            
-    <h2 align="center"><i>Medium</i></h2>
-    <h2 align="center"><i>Hard</i></h2>
+    <h2 align="center"><s><i>Medium</i></s></h2>
+    <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 <details>
     <summary>
@@ -314,8 +320,8 @@
             <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/09_Counting_Sort-2.c">Counting sort 2</a>
         </li>
     </ol>           
-    <h2 align="center"><i>Medium</i></h2>
-    <h2 align="center"><i>Hard</i></h2>
+    <h2 align="center"><s><i>Medium</i></s></h2>
+    <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 <details>
     <summary>
@@ -330,8 +336,8 @@
                 <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/05_Search/02_Ice_Cream_parlor.c">Ice cream parlor</a>
             </li>
         </ol>
-    <h2 align="center"><i>Medium</i></h2>
-    <h2 align="center"><i>Hard</i></h2>
+    <h2 align="center"><s><i>Medium</i></s></h2>
+    <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 
 <h2>CodeForces <img align= "left" src="./img/codeforces.png" height = "25px" width = "25px"></h2>

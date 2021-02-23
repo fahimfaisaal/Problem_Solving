@@ -11,60 +11,39 @@
 char* readline();
 char** split_string(char*);
 
-int campfunc(const void *a, const void *b) {
-  return *(int*)a - *(int*)b;
-}
+int jumpingOnClouds(int c_count, int* clouds, int k) {
+    int energy = 100;  
 
-int getMedian(int start, int end) {
-    return (end - start) / 2;
-}
-
-int getMax(int len, int *arr) {
-    int max = arr[0];
-
-    for (int i = 0; i < len; i++) if (max < arr[i]) max = arr[i];
-
-    return max;
-}
-
-int flatlandSpaceStations(int n, int c_count, int* c) {
-
-    if (n == c_count) return 0;
-
-    qsort(c, c_count, sizeof(int), campfunc);
-
-    int *medians = calloc(10000, sizeof(int));
-
-    int j = 0;
-    for (int i = 0; i < c_count - 1; i++) {
-        medians[j++] = getMedian(c[i], c[i + 1]);
+    for (int i = k % c_count; i || !i; i = (i + k) % c_count) {
+        energy -= clouds[i] * 2 + 1;
+        if (!i) break;
     }
 
-    return getMax(j, medians);
+    return energy;
 }
 
 int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
-    char** nm = split_string(readline());
+    char** nk = split_string(readline());
 
     char* n_endptr;
-    char* n_str = nm[0];
+    char* n_str = nk[0];
     int n = strtol(n_str, &n_endptr, 10);
 
     if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
 
-    char* m_endptr;
-    char* m_str = nm[1];
-    int m = strtol(m_str, &m_endptr, 10);
+    char* k_endptr;
+    char* k_str = nk[1];
+    int k = strtol(k_str, &k_endptr, 10);
 
-    if (m_endptr == m_str || *m_endptr != '\0') { exit(EXIT_FAILURE); }
+    if (k_endptr == k_str || *k_endptr != '\0') { exit(EXIT_FAILURE); }
 
     char** c_temp = split_string(readline());
 
-    int* c = malloc(m * sizeof(int));
+    int* c = malloc(n * sizeof(int));
 
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < n; i++) {
         char* c_item_endptr;
         char* c_item_str = *(c_temp + i);
         int c_item = strtol(c_item_str, &c_item_endptr, 10);
@@ -74,9 +53,9 @@ int main() {
         *(c + i) = c_item;
     }
 
-    int c_count = m;
+    int c_count = n;
 
-    int result = flatlandSpaceStations(n, c_count, c);
+    int result = jumpingOnClouds(c_count, c, k);
 
     fprintf(fptr, "%d\n", result);
 
