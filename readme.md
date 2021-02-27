@@ -344,3 +344,12 @@
 
 1. [A](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/A)
 2. [B](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/B)
+
+<h2>URI <img align= "left" src="./img/URI.jpg" height = "25px" width = "25px"></h2>
+
+#### Beginner
+1. [Solution_1001-1037](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1001-1037/sloution.c)
+2. [Solution_1038-1073](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1038-1073/solution.c)
+3. [Solution_1074-1144](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1074-1144/solution.c)
+4. [Solution_1145-1181](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1145-1181/solution.c)
+5. [Solution_1182-1864](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1182-1864/solution.c)
