@@ -191,6 +191,9 @@
                 <li>
                     <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/46_Manasa_and_Stones.js">Manasa and stones (javaScript)<a>
                 </li>
+                <li>
+                    <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/47_Append_and_Delete.c">Append and delete<a>
+                </li>
             </ol>
             <h2 align="center"><i>Medium</i></h2>
                 <ol>
