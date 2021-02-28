@@ -11,7 +11,6 @@
 char* readline();
 
 bool getCharCode(char letter) {
-
     for (int i = 1, j = 65; i < 27; i++, j++) {
         if (letter == j) return true;
     }

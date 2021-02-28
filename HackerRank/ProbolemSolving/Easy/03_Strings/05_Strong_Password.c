@@ -68,7 +68,6 @@ char* readline() {
 }
 
 int isUpperCase(int n, char *s) {
-
     for (int i = 0; i < n; i++) {
         int charCode = s[i];
 
@@ -81,7 +80,6 @@ int isUpperCase(int n, char *s) {
 }
 
 int isLowerCase(int n, char *s) {
-
     for (int i = 0; i < n; i++) {
         int charCode = s[i];
 
@@ -94,7 +92,6 @@ int isLowerCase(int n, char *s) {
 }
 
 int isDigit(int n, char *s) {
-
     for (int i = 0; i < n; i++) {
         int charCode = s[i];
 
@@ -107,7 +104,6 @@ int isDigit(int n, char *s) {
 }
 
 int isSpecialChar(int n, char *s) {
-
     char specialChar[12] = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+'};
 
     for (int i = 0; i < n; i++) {
