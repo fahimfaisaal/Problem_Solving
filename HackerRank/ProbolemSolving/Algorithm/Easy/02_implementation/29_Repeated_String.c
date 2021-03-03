@@ -9,7 +9,28 @@
 #include <string.h>
 
 char* readline();
-long repeatedString(char* s, long n);
+
+long repeatedString(char* s, long n) {
+    long size = strlen(s),
+        repeat = n / size;
+        
+    long remian = n - (size * repeat);
+
+    int extra = 0;
+    int count = 0;
+
+    for(int i = 0; i < size; i++) { 
+        if(s[i] == 'a') count++;        
+    }
+
+    for(int i = 0; i < remian; i++) {
+        if(s[i] == 'a') extra++;        
+    }
+
+    repeat = (repeat * count) + extra;
+
+    return repeat;
+}
 
 int main() {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
@@ -61,26 +82,4 @@ char* readline() {
     data = realloc(data, data_length);
 
     return data;
-}
-
-long repeatedString(char* s, long n) {
-    long size = strlen(s),
-        repeat = n / size;
-        
-    long remian = n - (size * repeat);
-
-    int extra = 0;
-    int count = 0;
-
-    for(int i = 0; i < size; i++) { 
-        if(s[i] == 'a') count++;        
-    }
-
-    for(int i = 0; i < remian; i++) {
-        if(s[i] == 'a') extra++;        
-    }
-
-    repeat = (repeat * count) + extra;
-
-    return repeat;
 }

@@ -56,12 +56,12 @@ int gemstones(int arr_count, char** arr) {
                 }
             }
             
-            if (!isMatch) commonLetters[j] = ' ';
+            if (!isMatch) commonLetters[j] = '\0';
         }
     }
     
     for (int i = 0; i < lenOfCommon; i++) {
-        if (commonLetters[i] == ' ') continue;
+        if (commonLetters[i] == '\0') continue;
         gems++;
     }
     

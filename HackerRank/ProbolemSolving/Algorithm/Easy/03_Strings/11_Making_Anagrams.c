@@ -28,21 +28,21 @@ int makingAnagrams(char* s1, char* s2) {
 
     for (int i = 0; i < s1Len; i++) {
         for (int j = 0; j < s2Len; j++) {
-            if (s2[j] == ' ') continue;
+            if (s2[j] == '\0') continue;
             
             if (s1[i] == s2[j]) {
-                s1[i] = ' ';
-                s2[j] = ' ';
+                s1[i] = '\0';
+                s2[j] = '\0';
                 break;
             }
         }
         
-        if (s1[i] != ' ') anagrams++;      
+        if (s1[i] != '\0') anagrams++;      
     }
 
     
     for (int i = 0; i < s2Len; i++) {
-        if (s2[i] != ' ' && isChar(s2[i])) anagrams++;        
+        if (s2[i] != '\0' && isChar(s2[i])) anagrams++;        
     }
 
     return anagrams;

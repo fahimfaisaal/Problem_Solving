@@ -22,10 +22,10 @@ int anagram(char* s) {
        int j;
        
        for (j = halfLen; j < len; j++) {
-           if (s[j] == '0') continue;
+           if (s[j] == '\0') continue;
            
            if (s[i] == s[j]) {
-                s[j] = '0';
+                s[j] = '\0';
                 break;
            }
        }

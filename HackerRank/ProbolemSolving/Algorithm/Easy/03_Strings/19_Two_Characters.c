@@ -6,12 +6,12 @@ char *reduceStr(char *string, int len) {
     char *reduce = calloc(26, sizeof(char));
 
     for (int i = 0, j = 0; i < len; i++) {
-        if (string[i] == ' ') continue;
+        if (string[i] == '\0') continue;
         reduce[j++] = string[i];
 
         for (int k = i + 1; k < len; k++) {
             if (string[i] == string[k])
-                string[k] = ' ';
+                string[k] = '\0';
         }
     }
 
