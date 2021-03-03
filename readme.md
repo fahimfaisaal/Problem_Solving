@@ -347,7 +347,7 @@
 #### Data Structures:
 <details>
     <summary>
-            <b>Search</b>
+            <b>Array</b>
     </summary>
     <h2 align="center"><i>Easy</i></h2> 
     <ol>
