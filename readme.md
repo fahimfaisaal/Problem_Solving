@@ -344,7 +344,20 @@
     <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 
-### Data Structures:
+#### Data Structures:
+<details>
+    <summary>
+            <b>Search</b>
+    </summary>
+    <h2 align="center"><i>Easy</i></h2> 
+    <ol>
+        <li>
+            <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Data%20Structures/Easy/01_Array-DS.c">Array DS</a>
+        </li>
+    </ol>
+    <h2 align="center"><s><i>Medium</i></s></h2>
+    <h2 align="center"><s><i>Hard</i></s></h2>
+</details>
 
 <h2>CodeForces <img align= "left" src="./img/codeforces.png" height = "25px" width = "25px"></h2>
 
