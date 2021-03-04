@@ -1,41 +1,64 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    int rank_count,
-        player_count,
-        player_score;
+int campfunc(const void *a, const void *b) {
+  return *(int*)b - *(int*)a;
+}
 
-    scanf("%d", &rank_count);
-    int *scores = calloc(rank_count, 4),
-        *rank = calloc(rank_count, 4);
+int binarySearch(int *arr, int left, int right, int el) {
+    if (left <= right) {
+        int mid = (left + right) / 2;
 
-    for (int i = 0, r = 0; i < rank_count; i++) {
-        scanf("%d", &scores[i]);
-        (scores[i] != scores[i - 1]) && r++;
-        rank[i] = r;
+        if (arr[mid] == el) {
+            return mid;
+        }
+
+        if (arr[mid] > el) {
+            return binarySearch(arr, mid + 1, right, el);
+        }
+
+        return binarySearch(arr, left, mid - 1, el);
     }
 
-    scanf("%d", &player_count);
+    return -1;
+}
 
-    int len = (rank_count % 2) ? (rank_count / 2) + 1 : rank_count / 2,
-        partitionOne = scores[len - 1],
-        partitionTwo = scores[len];
+int climbingLeaderboard(int n, int *ranked, int *ranks, int score) {
+    ranked[n] = score;
+    qsort(ranked, n + 1, sizeof(int), campfunc);
 
-    while (player_count--) {
-        scanf("%d", &player_score);
+    int playerRank, ranksIndex;
 
-        int i = (player_score < partitionOne) ? len : 0,
-            operation = !i ? len : rank_count;
+    ranksIndex = binarySearch(ranked, 0, n, score);
 
-        for (; i < operation; i++) {
-            if (player_score >= scores[i]) {
-                printf("%d\n", rank[i]);
-                break;
-            }
-            
-            (i == operation - 1 && player_score < scores[i]) && printf("%d\n", rank[i] + 1);
-        }
+    if (ranked[ranksIndex] == ranked[ranksIndex - 1]) {
+        playerRank = ranks[ranksIndex - 1];
+    }
+    else playerRank = ranks[ranksIndex - 1] + 1;
+
+    return playerRank;
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int *ranked = calloc(n + 1, sizeof(int)),
+        *ranks = calloc(n, sizeof(int));
+    
+    for (int i = 0, j = 0; i < n; i++) {
+        scanf("%d", &ranked[i]);
+
+        if (ranked[i] != ranked[i - 1]) ranks[i] = ++j;
+        else ranks[i] = j;
+    }
+
+    int m, score;
+    scanf("%d", &m);
+
+    for (int i = 0; i < m; i++) {
+        scanf("%d", &score);
+        printf("%d\n", climbingLeaderboard(n, ranked, ranks, score));
     }
 
     return 0;
