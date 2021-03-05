@@ -8,7 +8,7 @@
 <details>
     <summary>
         <b>Warmup</b>
-    </summary> 
+    </summary>
     <br>
     <div>
         <ol>
@@ -219,7 +219,7 @@
             </ol>            
         <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
-    <!-- * Strings -->
+<!-- * Strings -->
 <details>
     <summary>
             <b>Strings</b>
@@ -323,9 +323,9 @@
         <li>
             <a href="https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Easy/04_Sorting/09_Counting_Sort-2.c">Counting sort 2</a>
         </li>
-    </ol>           
+    </ol>     
     <h2 align="center"><s><i>Medium</i></s></h2>
-        <h2 align="center"><s><i>Hard</i></s></h2>
+    <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 <details>
     <summary>
@@ -353,6 +353,12 @@
     <ol>
         <li>
             <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Data%20Structures/Easy/01_Array-DS.c">Array DS</a>
+        </li>
+        <li>
+            <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Data%20Structures/Easy/02_2D_Array-DS.c">2D Array - DS</a>
+        </li>
+        <li>
+            <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Data%20Structures/Easy/03_Left_Rotation.c">Left Rotation</a>
         </li>
     </ol>
     <h2 align="center"><s><i>Medium</i></s></h2>
