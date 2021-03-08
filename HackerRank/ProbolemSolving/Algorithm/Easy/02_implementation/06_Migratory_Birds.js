@@ -22,7 +22,7 @@ function readLine() {
     return inputString[currentLine++];
 }
     
-function migratoryBirds(arr) {    
+function migratoryBirds(arr) {
     let counterObj = arr.reduce((acc, item) => {
 
         if (!acc[item]) acc[item] = 1;
