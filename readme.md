@@ -37,7 +37,7 @@
                 <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/07_Mini_Max_Sum.c">Mini max sum</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/08_Birthday_Cake_Candels.c">Birthday cake candels</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/08_Birthday_Cake_Candles.c">Birthday cake candles</a>
             </li>
             <li>
                 <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/09_Time_Conversion.js">Time conversion (javaScript)</a>
@@ -361,7 +361,12 @@
             <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Data%20Structures/Easy/03_Left_Rotation.c">Left Rotation</a>
         </li>
     </ol>
-    <h2 align="center"><s><i>Medium</i></s></h2>
+    <h2 align="center"><i>Medium</i></h2>
+        <ol>
+            <li>
+                <a href= "https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/HackerRank/ProbolemSolving/Data%20Structures/Medium/01_Sparse_Arrays.js">Sparse arrays</a>
+            </li>
+    </ol>
     <h2 align="center"><s><i>Hard</i></s></h2>
 </details>
 
