@@ -1,5 +1,6 @@
+.vscode/
+.idea
+The_Problem_Solving.iml
 test
 test.exe
-.vscode/
 test.c
-The_Problem_Solving.iml
