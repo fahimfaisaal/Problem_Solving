@@ -2,22 +2,6 @@ import java.util.*;
 import java.io.*;
 
 class Solution {
-    public static String one() {
-        return "* long";
-    }
-
-    public static String two() {
-        return "* int\n* long";
-    }
-
-    public static String three() {
-        return "* short\n* int\n* long";
-    }
-
-    public static String four() {
-        return "* byte\n* short\n* int\n* long";
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -30,13 +14,13 @@ class Solution {
                 String result = new String();
                 
                 if (x >= -128 && x <= 127) {
-                    result = four();
+                    result = "* byte\n* short\n* int\n* long";
                 } else if (x >= -32768 && x <= 32767) {
-                    result = three();
-                } else if (x >= -2147483648 && x <= 2147483647)  {
-                    result = two();
+                    result = "* short\n* int\n* long";
+                } else if (x >= -2147483648 && x <= 2147483647) {
+                    result = "* int\n* long";
                 } else {
-                    result = one();
+                    result = "* long";
                 }
 
                 System.out.println(result);
