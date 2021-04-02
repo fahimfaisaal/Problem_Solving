@@ -1,8 +1,8 @@
 import java.util.*;
 import java.io.*;
 
-class Solution {
-    public static int pow(int base, int pow) {
+class Solution7 {
+    private static int pow(int base, int pow) {
         if (pow == 0) return 1;
         
         return base * pow(base, pow - 1);
@@ -19,7 +19,7 @@ class Solution {
             int n = in.nextInt();
             
             for (int j = 0; j < n; j++) {
-                a += (Solution.pow(2, j) * b);
+                a += (pow(2, j) * b);
                 System.out.print(a + " ");
             }
             

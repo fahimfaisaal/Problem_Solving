@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution {
+class Solution8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -11,7 +11,7 @@ class Solution {
                 long x = sc.nextLong();
                 System.out.println(x + " can be fitted in:");
 
-                String result = new String();
+                String result = "";
                 
                 if (x >= -128 && x <= 127) {
                     result = "* byte\n* short\n* int\n* long";
