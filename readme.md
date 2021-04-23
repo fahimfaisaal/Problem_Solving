@@ -3,8 +3,11 @@
 <h2>HackerRank <img align= "left" src="./img/HackerRank_Icon-1000px.png" height = "25px" width = "25px"></h2>
 
 ### Problem Solving
+
 <!-- * Warmup -->
+
 #### Algorithm:
+
 <details>
     <summary>
         <b>Warmup</b>
@@ -13,34 +16,34 @@
     <div>
         <ol>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/00_Solve_me_fast.c">Solve me first</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/00_Solve_me_fast.c">Solve me first</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/01_Simple_Array_Sum.c">Simple Array Some</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/01_Simple_Array_Sum.c">Simple Array Some</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/02_A_Very_Big_sum.c">A Very Big Sum</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/02_A_Very_Big_sum.c">A Very Big Sum</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/03_Compare_the_Triplets.c">Compare the triplets</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/03_Compare_the_Triplets.c">Compare the triplets</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/04_Diagonal_Difference.c">Diagonal Deference</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/04_Diagonal_Difference.c">Diagonal Deference</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/05_Plus_Minus.c">Plus Minus</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/05_Plus_Minus.c">Plus Minus</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/06_Staircase.c">Staircase</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/06_Staircase.c">Staircase</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/07_Mini_Max_Sum.c">Mini max sum</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/07_Mini_Max_Sum.c">Mini max sum</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/08_Birthday_Cake_Candles.c">Birthday cake candles</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/08_Birthday_Cake_Candles.c">Birthday cake candles</a>
             </li>
             <li>
-                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/tree/master/HackerRank/ProbolemSolving/Easy/01_Warmup/09_Time_Conversion.js">Time conversion (javaScript)</a>
+                <a href = "https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/01_Warmup/09_Time_Conversion.js">Time conversion (javaScript)</a>
             </li>
         </ol>
     </div>
@@ -89,7 +92,7 @@
                 <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/11_Designer_PDF_Viewer.js">Designer PDF viewer (javaScript)<a>
             </li>
             <li>
-                <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/12_Utopain_tree.c">Utopain tree<a>
+                <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/12_Utopain_tree.c">Utopain blob<a>
             </li>
             <li>
                 <a href="https://github.com/fahimfaisaal/Hackerrank_and_CodeForces/blob/master/HackerRank/ProbolemSolving/Easy/02_implementation/13_Electronics_Shop.c">Electronic shop<a>
@@ -345,6 +348,7 @@
 </details>
 
 #### Data Structures:
+
 <details>
     <summary>
             <b>Array</b>
@@ -372,12 +376,13 @@
 
 <h2>CodeForces <img align= "left" src="./img/codeforces.png" height = "25px" width = "25px"></h2>
 
-1. [A](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/A)
-2. [B](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/tree/master/CodeForces/C/B)
+1. [A](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/CodeForces/C/A)
+2. [B](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/CodeForces/C/B)
 
 <h2>URI <img align= "left" src="./img/URI.jpg" height = "25px" width = "25px"></h2>
 
 #### Beginner
+
 1. [Solution_1001-1037](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1001-1037/sloution.c)
 2. [Solution_1038-1073](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1038-1073/solution.c)
 3. [Solution_1074-1144](https://github.com/fahimfaisaal/Hackerrank_CodeForces_URI/blob/master/URI/Beginner/Solution_1074-1144/solution.c)
