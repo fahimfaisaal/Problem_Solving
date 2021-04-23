@@ -3,8 +3,12 @@
 #include <stdbool.h>
 
 bool isLeap(int year) {
-    if ((year <= 1917 && !(year % 4)) || (year > 1918 && ((!(year % 400) || year % 100 != 0) && !(year % 4))))
+    if (
+        (year <= 1917 && !(year % 4)) ||
+        (year > 1918 && ((!(year % 400) || year % 100 != 0) && !(year % 4)))
+    ) {
         return true;
+    }
 
     return false;
 }
